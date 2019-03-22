@@ -1,0 +1,119 @@
+.navbar {
+  background-color: #fff;
+}
+.navbar:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  content: "";
+  width: 100%;
+  height: 9px;
+  background: url(../images/background/shapes/shape-header.png) center repeat-x;
+  transition: none;
+}
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 10%;
+    left: 10%;
+    padding-bottom: 30px;
+  }
+}
+.carousel-caption h2 {
+  font-size: 80px;
+}
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+@media (max-width: 479px) {
+
+  .carousel-caption h2 {
+    font-size: 30px;
+  }
+  /* order list */
+  .xs-order-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .xs-order-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .xs-order-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+}
+.fz-80 {
+  font-size: 80px;
+}
+.link-popup {
+  display: block;
+}
+.link-popup i {
+  top: 25%;
+}
+.link-popup:hover {
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------ */
+/*  FIXED BUTTON
+/* ------------------------------------------------------------------------ */
+.fixed-button ,
+.fixed-button2 {
+  display: none;
+}
+@media (max-width: 480px) {
+
+  .fixed-button ,
+  .fixed-button2 {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    bottom: 20px;
+  }
+  .fixed-button {
+    left: 15px;
+  }
+  .fixed-button2 {
+    left: 75px;
+  }
+  .fixed-button a,
+  .fixed-button2 a {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 14px;
+    color: #fff;
+    /*text-indent: -9999px;*/
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: 0.2s all linear;
+    -moz-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  }
+  .fixed-button a {
+    background-color: #28a745;
+    background: linear-gradient(135deg, #4dc368, #28a745);
+  }
+  .fixed-button2 a {
+    /*background-color: #5F58FA;
+    background: linear-gradient(135deg, #5F58FA, #a777e3);*/
+    background-color: #28a745;
+    background: linear-gradient(135deg, #4dc368, #28a745);
+  }
+}
