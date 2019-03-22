@@ -9,7 +9,7 @@
   <meta name="author" content="zytheme" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Elegant Restaurant & Cafe Html5 Template">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <link href="public/assets/images/favicon/favicon.png" rel="icon">
 
   <!-- Fonts
   ============================================= -->
@@ -18,20 +18,20 @@
 
   <!-- Stylesheets
   ============================================= -->
-  <link href="assets/css/external.css" rel="stylesheet">
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="public/assets/css/external.css" rel="stylesheet">
+  <link href="public/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/assets/css/style.css" rel="stylesheet">
+  <link href="public/assets/css/custom.css" rel="stylesheet">
 
   <!-- RS5.0 Main Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
-  <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/navigation.css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
-    <script src="assets/js/html5shiv.js"></script>
-    <script src="assets/js/respond.min.js"></script>
+    <script src="public/assets/js/html5shiv.js"></script>
+    <script src="public/assets/js/respond.min.js"></script>
   <![endif]-->
 
   <!-- Document Title
@@ -81,7 +81,7 @@
 
   <nav id="primary-menu" class="navbar navbar--dark navbar-fixed-top affix">
     <div class="container">
-      <!-- <div class=""> -->
+      <div class="">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -91,8 +91,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="logo" href="index.html">
-            <img class="logo-light" src="assets/images/logo/logo-light.png" alt="granny Logo">
-            <img class="logo-dark" style="max-height: 40px" src="assets/images/logo.png" alt="granny Logo">
+            <img class="logo-light" src="public/assets/images/logo/logo-light.png" alt="granny Logo">
+            <img class="logo-dark" style="max-height: 35px" src="public/assets/images/logo.png" alt="granny Logo">
           </a>
         </div>
         <div class="module-container pull-right hidden-md">
@@ -131,7 +131,7 @@
             </li>
           </ul>
         </div>
-      <!-- </div> -->
+      </div>
     </div>
   </nav>
 </header>
@@ -146,13 +146,13 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="assets/images/bg/fish-2201050_1920.jpg" alt="..." style="width:100%; background-size: cover;">
+      <img src="public/assets/images/bg/fish-2201050_1920.jpg" alt="..." style="width:100%; background-size: cover;">
       <div class="carousel-caption">
         <h2 class="text-white">Рыбы Форели от хозяйства AMANAT FISH</h2>
       </div>
     </div>
     <div class="item">
-      <img src="assets/images/bg/slide_foreli-3-3.jpg" alt="..." style="width:100%; background-size: cover;">
+      <img src="public/assets/images/bg/slide_foreli-3-3.jpg" alt="..." style="width:100%; background-size: cover;">
       <div class="carousel-caption">
         <h2 class="text-white">Рыбы Форели от хозяйства AMANAT FISH</h2>
       </div>
@@ -186,12 +186,12 @@
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3">
         <div class="banner-img mt-20">
-          <img src="assets/images/bg/forel-5-1.jpg" alt="image">
+          <img src="public/assets/images/bg/forel-5-1.jpg" alt="image">
         </div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3">
         <div class="banner-img">
-          <img src="assets/images/bg/forel-5-2.jpg" alt="image">
+          <img src="public/assets/images/bg/forel-5-2.jpg" alt="image">
         </div>
       </div>
     </div>
@@ -203,12 +203,12 @@
     <div class="row">
       <div class="col-xs-6 col-sm-6 col-md-3 xs-order-2">
         <div class="banner-img mt-20">
-          <img src="assets/images/farm/IMG_9103.JPG" alt="image">
+          <img src="public/assets/images/farm/IMG_9103.JPG" alt="image">
         </div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3 xs-order-3">
         <div class="banner-img">
-          <img src="assets/images/farm/IMG_9103-2.JPG" alt="image">
+          <img src="public/assets/images/farm/IMG_9103-2.JPG" alt="image">
         </div>
       </div>
 
@@ -230,7 +230,7 @@
 ============================================= -->
 <section id="specials" class="specials specials-1 bg-overlay bg-overlay-dark4- bg-parallax text--center">
   <div class="bg-section">
-    <img src="assets/images/bg/slide_foreli-3-3.jpg" alt="Background" />
+    <img src="public/assets/images/bg/slide_foreli-3-3.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up"></div>
@@ -277,7 +277,7 @@
               <div class="banner--img">
                 <a class="dish-popup link-popup" data-toggle="modal" data-target="#dishPopup{{ $product->id }}">
                   <i class="fa fa-search-plus"></i>
-                  <img src="/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->title }}" class="img-responsive">
+                  <img src="/public/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->title }}" class="img-responsive">
                 </a>
               </div>
               <div class="banner--content">
@@ -294,7 +294,7 @@
                     <div class="row reservation">
                       <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="img-popup">
-                          <img src="/img/products/{{ $product->path.'/'.$product->image }}" alt="dish img">
+                          <img src="/public/img/products/{{ $product->path.'/'.$product->image }}" alt="dish img">
                           <div class="img-popup-overlay">
                             <div class="popup--price">{{ $product->price }}</div>
                             <h3 class="popup--title">{{ $product->title }}</h3>
@@ -320,7 +320,7 @@
 ============================================= -->
 <section id="advantages" class="specials specials-1 bg-overlay bg-overlay-dark4- bg-parallax text--center">
   <div class="bg-section">
-    <img src="assets/images/bg/ikra-4.jpg" alt="Background" />
+    <img src="public/assets/images/bg/ikra-4.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up"></div>
@@ -341,7 +341,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/3.png" alt="feature img">
+                  <img src="public/assets/images/icons/3.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Икра класса «элита»</h3>
@@ -352,7 +352,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/18.png" alt="feature img">
+                  <img src="public/assets/images/icons/18.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Здоровый продукт</h3>
@@ -364,7 +364,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/2.png" alt="feature img">
+                  <img src="public/assets/images/icons/2.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Забота о рыбах</h3>
@@ -378,7 +378,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-2">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/14.png" alt="feature img">
+                  <img src="public/assets/images/icons/14.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Опытные специалисты</h3>
@@ -390,7 +390,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/13.png" alt="feature img">
+                  <img src="public/assets/images/icons/13.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Качественные продукты</h3>
@@ -402,7 +402,7 @@
             <!-- <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="assets/images/icons/6.png" alt="feature img">
+                  <img src="public/assets/images/icons/6.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Awesome Coffee</h3>
@@ -433,38 +433,38 @@
     </div>
     <div class="row row-clients">
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
     </div>
     <!-- .row-clients -->
     <div class="row row-clients">
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
       </div>
     </div>
   </div>
@@ -474,7 +474,7 @@
 ============================================= -->
 <section class="testimonial testimonial-5 bg-overlay bg-overlay-dark bg-parallax text-center">
   <div class="bg-section">
-    <img src="assets/images/bg/forel-1.jpg" alt="Background" />
+    <img src="public/assets/images/bg/forel-1.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up divider--shape-white"></div>
@@ -487,7 +487,7 @@
             <div class="item active">
               <div class="testimonial-panel">
                 <div class="testimonial--img">
-                  <img src="assets/images/testimonial/chef-hat.png" alt="hat">
+                  <img src="public/assets/images/testimonial/chef-hat.png" alt="hat">
                 </div>
                 <div class="testimonial--body">
                   <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
@@ -502,7 +502,7 @@
             <div class="item">
               <div class="testimonial-panel">
                 <div class="testimonial--img">
-                  <img src="assets/images/testimonial/chef-hat.png" alt="hat">
+                  <img src="public/assets/images/testimonial/chef-hat.png" alt="hat">
                 </div>
                 <div class="testimonial--body">
                   <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
@@ -543,12 +543,12 @@
       <!-- Portfolio #1 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths portfolio-item filter-clients">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/1.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/1.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/1.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/1.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -559,12 +559,12 @@
       <!-- Portfolio #2 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-staff">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/2.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/2.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/2.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/2.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -575,12 +575,12 @@
       <!-- Portfolio #3 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/3.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/3.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/3.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/3.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -591,12 +591,12 @@
       <!-- Portfolio #4 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/4.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/4.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/4.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/4.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -607,12 +607,12 @@
       <!-- Portfolio #5 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/5.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/5.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/5.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/5.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -623,12 +623,12 @@
       <!-- Portfolio #6 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/6.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/6.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/6.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/6.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -639,12 +639,12 @@
       <!-- Portfolio #7 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/7.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/7.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/1.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/1.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -655,12 +655,12 @@
       <!-- Portfolio #8 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/8.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/8.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/8.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/8.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -671,12 +671,12 @@
       <!-- Portfolio #9 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/9.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/9.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/9.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/9.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -687,12 +687,12 @@
       <!-- Portfolio #10 -->
       <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
         <div class="portfolio--img">
-          <img src="assets/images/gallery/10.jpg" alt="Dish Image">
+          <img src="public/assets/images/gallery/10.jpg" alt="Dish Image">
           <div class="portfolio--hover">
             <div class="portfolio--action">
               <div class="pos-vertical-center">
                 <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="assets/images/gallery/full/10.jpg" title="Dish Image"></a>
+                  <a class="img-gallery-item" href="public/assets/images/gallery/full/10.jpg" title="Dish Image"></a>
                 </div>
               </div>
             </div>
@@ -707,7 +707,7 @@
 ============================================= -->
 <section class="reservation bg-overlay bg-overlay-dark bg-parallax pt-90 pb-80">
   <div class="bg-section">
-    <img src="assets/images/bg/20647-12085.jpg" alt="Background" />
+    <img src="public/assets/images/bg/20647-12085.jpg" alt="Background" />
   </div>
   <div class="container">
     <!-- <div class="divider--shape-1up"></div> -->
@@ -756,12 +756,12 @@
 <!-- CONTACT BUTTONS -->
 <div class="fixed-button">
   <a href="whatsapp://send?phone=+77017892454" target="_top" data-attr="whatsapp_call">
-    <img src="assets/images/whatsapp-logo.png">
+    <img src="public/assets/images/whatsapp-logo.png">
   </a>
 </div>
 <div class="fixed-button2">
   <a href="tel:+77017892454" target="_top" data-attr="phone">
-    <img src="assets/images/phone-receiver.png">
+    <img src="public/assets/images/phone-receiver.png">
   </a>
 </div>
 
@@ -878,22 +878,22 @@
 
 <!-- Footer Scripts
 ============================================= -->
-<script src="assets/js/jquery-2.2.4.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/functions.js"></script>
+<script src="public/assets/js/jquery-2.2.4.min.js"></script>
+<script src="public/assets/js/plugins.js"></script>
+<script src="public/assets/js/functions.js"></script>
 <!-- RS5.0 Core JS Files -->
-<!-- <script src="assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> -->
+<!-- <script src="public/assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script src="public/assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="public/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> -->
 <!-- RS Configration JS Files -->
-<script src="assets/js/rsconfig.js"></script>
+<script src="public/assets/js/rsconfig.js"></script>
 </body>
 
 </html>
