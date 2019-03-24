@@ -16,10 +16,10 @@ class PageController extends Controller
 {
     public function index()
     {
-        // $gallery = Gallery::orderBy('created_at')->paginate(40);
+        $gallery = Gallery::orderBy('created_at')->paginate(40);
         $products = Product::all();
 
-        return view('index', ['products' => $products]);
+        return view('index', ['products' => $products, 'gallery' => $gallery]);
     }
 
     public function page($slug)

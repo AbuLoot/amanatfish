@@ -36,6 +36,7 @@
 
   .carousel-caption h2 {
     font-size: 30px;
+    margin-bottom: -24px;
   }
   /* order list */
   .xs-order-1 {

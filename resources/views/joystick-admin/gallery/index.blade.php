@@ -12,7 +12,7 @@
   <div class="row">
     @foreach($gallery as $image)
       <div class="col-md-2" style="margin-bottom: 30px;">
-        <a href="/images/gallery/{{ $image->image }}"><img src="/images/gallery/mini-{{ $image->image }}" class="img-responsive"></a>
+        <a href="/img/gallery/{{ $image->image }}"><img src="/img/gallery/mini-{{ $image->image }}" class="img-responsive"></a>
         <h5>{{ $image->title }}</h5>
         <a class="btn btn-link btn-xs" href="{{ route('gallery.edit', $image->id) }}" title="Редактировать"><i class="material-icons md-18">mode_edit</i></a>
         <form class="btn-delete" method="POST" action="{{ route('gallery.destroy', $image->id) }}" accept-charset="UTF-8">

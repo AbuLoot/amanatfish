@@ -9,7 +9,7 @@
   <meta name="author" content="zytheme" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Elegant Restaurant & Cafe Html5 Template">
-  <link href="public/assets/images/favicon/favicon.png" rel="icon">
+  <link href="assets/images/favicon/favicon.png" rel="icon">
 
   <!-- Fonts
   ============================================= -->
@@ -18,20 +18,20 @@
 
   <!-- Stylesheets
   ============================================= -->
-  <link href="public/assets/css/external.css" rel="stylesheet">
-  <link href="public/assets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="public/assets/css/style.css" rel="stylesheet">
-  <link href="public/assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/external.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- RS5.0 Main Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/settings.css">
-  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/layers.css">
-  <link rel="stylesheet" type="text/css" href="public/assets/revolution/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
-    <script src="public/assets/js/html5shiv.js"></script>
-    <script src="public/assets/js/respond.min.js"></script>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 
   <!-- Document Title
@@ -91,8 +91,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="logo" href="index.html">
-            <img class="logo-light" src="public/assets/images/logo/logo-light.png" alt="granny Logo">
-            <img class="logo-dark" style="max-height: 35px" src="public/assets/images/logo.png" alt="granny Logo">
+            <img class="logo-light" src="assets/images/logo/logo-light.png" alt="granny Logo">
+            <img class="logo-dark" style="max-height: 35px" src="assets/images/logo.png" alt="granny Logo">
           </a>
         </div>
         <div class="module-container pull-right hidden-md">
@@ -139,34 +139,23 @@
 
 <!-- Carousel -->
 <div id="carousel-generic" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-generic" data-slide-to="1"></li>
-  </ol>
-
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="public/assets/images/bg/fish-2201050_1920.jpg" alt="..." style="width:100%; background-size: cover;">
-      <div class="carousel-caption">
-        <h2 class="text-white">Рыбы Форели от хозяйства AMANAT FISH</h2>
-      </div>
-    </div>
-    <div class="item">
-      <img src="public/assets/images/bg/slide_foreli-3-3.jpg" alt="..." style="width:100%; background-size: cover;">
+      <img src="assets/images/bg/fish-2201050_1920.jpg" alt="..." style="width:100%; background-size: cover;">
       <div class="carousel-caption">
         <h2 class="text-white">Рыбы Форели от хозяйства AMANAT FISH</h2>
       </div>
     </div>
   </div>
 
-  <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+  <!-- <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
     <span class="fa fa-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
     <span class="fa fa-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a> -->
 </div>
 
 <!-- About
@@ -175,7 +164,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <div class="heading heading-1 text--center mt-40">
+        <div class="heading heading-1 text--center">
           <h2 class="heading--title">О компании</h2>
           <div class="divider--shape-4"></div>
           <p class="heading--desc">TOO AMANAT FISH отечественная компания является одним из крупнейших предприятий которая на протяжении трех лет выращивает форель используя самые передовые технологии.</p><br>
@@ -185,13 +174,13 @@
         </div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3">
-        <div class="banner-img mt-20">
-          <img src="public/assets/images/bg/forel-5-1.jpg" alt="image">
+        <div class="banner-img">
+          <img src="assets/images/bg/forel-5-1.jpg" alt="image">
         </div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3">
         <div class="banner-img">
-          <img src="public/assets/images/bg/forel-5-2.jpg" alt="image">
+          <img src="assets/images/bg/forel-5-2.jpg" alt="image">
         </div>
       </div>
     </div>
@@ -203,12 +192,12 @@
     <div class="row">
       <div class="col-xs-6 col-sm-6 col-md-3 xs-order-2">
         <div class="banner-img mt-20">
-          <img src="public/assets/images/farm/IMG_9103.JPG" alt="image">
+          <img src="assets/images/farm/IMG_9103.JPG" alt="image">
         </div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-3 xs-order-3">
         <div class="banner-img">
-          <img src="public/assets/images/farm/IMG_9103-2.JPG" alt="image">
+          <img src="assets/images/farm/IMG_9103-2.JPG" alt="image">
         </div>
       </div>
 
@@ -230,12 +219,13 @@
 ============================================= -->
 <section id="specials" class="specials specials-1 bg-overlay bg-overlay-dark4- bg-parallax text--center">
   <div class="bg-section">
-    <img src="public/assets/images/bg/slide_foreli-3-3.jpg" alt="Background" />
+    <img src="assets/images/bg/slide_foreli-3-3.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up"></div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+        <h2 class="heading--title color-white text-uppercase">Хозяйство</h2>
       </div>
     </div>
     <div class="row ">
@@ -244,7 +234,7 @@
 
           <div class="heading heading-1 mb-50- text--center">
             <!-- <p class="heading--subtitle">Продукция</p> -->
-            <h2 class="heading--title color-white-">Хозяйство</h2>
+            <!-- <h2 class="heading--title color-white-">Хозяйство</h2> -->
           </div>
           <div class="divider--shape-4"></div>
           <p class="heading--desc">Наша компания ТОО “Amanat Fish” имеет форелевое хозяйство, занимается импортом, экспортом, разведением и переработкой рыбной продукции.</p><br>
@@ -277,12 +267,12 @@
               <div class="banner--img">
                 <a class="dish-popup link-popup" data-toggle="modal" data-target="#dishPopup{{ $product->id }}">
                   <i class="fa fa-search-plus"></i>
-                  <img src="/public/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->title }}" class="img-responsive">
+                  <img src="/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->title }}" class="img-responsive">
                 </a>
               </div>
               <div class="banner--content">
                 <h3>{{ $product->title }}</h3>
-                <p>{{ $product->meta_description }}</p>
+                <!-- <p>{{ $product->meta_description }}</p> -->
                 <a class="btn btn--secondary btn--bordered" href="#"  data-toggle="modal" data-target="#dishPopup{{ $product->id }}">Подробнее</a>
               </div>
             </div>
@@ -294,7 +284,8 @@
                     <div class="row reservation">
                       <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="img-popup">
-                          <img src="/public/img/products/{{ $product->path.'/'.$product->image }}" alt="dish img">
+                          <?php $images = unserialize($product->images); ?>
+                          <img src="/img/products/{{ $product->path.'/'.$images[0]['image'] }}" alt="dish img">
                           <div class="img-popup-overlay">
                             <div class="popup--price">{{ $product->price }}</div>
                             <h3 class="popup--title">{{ $product->title }}</h3>
@@ -320,12 +311,13 @@
 ============================================= -->
 <section id="advantages" class="specials specials-1 bg-overlay bg-overlay-dark4- bg-parallax text--center">
   <div class="bg-section">
-    <img src="public/assets/images/bg/ikra-4.jpg" alt="Background" />
+    <img src="assets/images/bg/ikra-4.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up"></div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+            <h2 class="heading--title color-white text-uppercase">Преимущества</h2>
       </div>
     </div>
     <div class="row ">
@@ -335,13 +327,13 @@
           
           <div class="heading heading-1 mb-50- text--center">
             <!-- <p class="heading--subtitle">Продукция</p> -->
-            <h2 class="heading--title color-white-">Преимущества</h2>
+            <!-- <h2 class="heading--title color-white-">Преимущества</h2> -->
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/3.png" alt="feature img">
+                  <img src="assets/images/icons/3.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Икра класса «элита»</h3>
@@ -352,7 +344,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/18.png" alt="feature img">
+                  <img src="assets/images/icons/18.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Здоровый продукт</h3>
@@ -364,7 +356,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/2.png" alt="feature img">
+                  <img src="assets/images/icons/2.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Забота о рыбах</h3>
@@ -378,7 +370,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-2">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/14.png" alt="feature img">
+                  <img src="assets/images/icons/14.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Опытные специалисты</h3>
@@ -390,7 +382,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/13.png" alt="feature img">
+                  <img src="assets/images/icons/13.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Качественные продукты</h3>
@@ -402,7 +394,7 @@
             <!-- <div class="col-xs-12 col-sm-12 col-md-4">
               <div class="feature-panel">
                 <div class="feature--icon">
-                  <img src="public/assets/images/icons/6.png" alt="feature img">
+                  <img src="assets/images/icons/6.png" alt="feature img">
                 </div>
                 <div class="feature--content">
                   <h3>Awesome Coffee</h3>
@@ -433,38 +425,38 @@
     </div>
     <div class="row row-clients">
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
     </div>
     <!-- .row-clients -->
     <div class="row row-clients">
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/magnum.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/magnum.jpg" alt="client">
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3 client">
-        <img class="center-block" src="public/assets/images/clients/ramstor.jpg" alt="client">
+        <img class="center-block" src="assets/images/clients/ramstor.jpg" alt="client">
       </div>
     </div>
   </div>
@@ -474,7 +466,7 @@
 ============================================= -->
 <section class="testimonial testimonial-5 bg-overlay bg-overlay-dark bg-parallax text-center">
   <div class="bg-section">
-    <img src="public/assets/images/bg/forel-1.jpg" alt="Background" />
+    <img src="assets/images/bg/forel-1.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up divider--shape-white"></div>
@@ -487,7 +479,7 @@
             <div class="item active">
               <div class="testimonial-panel">
                 <div class="testimonial--img">
-                  <img src="public/assets/images/testimonial/chef-hat.png" alt="hat">
+                  <img src="assets/images/testimonial/chef-hat.png" alt="hat">
                 </div>
                 <div class="testimonial--body">
                   <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
@@ -502,7 +494,7 @@
             <div class="item">
               <div class="testimonial-panel">
                 <div class="testimonial--img">
-                  <img src="public/assets/images/testimonial/chef-hat.png" alt="hat">
+                  <img src="assets/images/testimonial/chef-hat.png" alt="hat">
                 </div>
                 <div class="testimonial--body">
                   <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
@@ -540,165 +532,22 @@
 <section id="portfolio" class="portfolio portfolio-gallery portfolio-5col pt-0 pb-0 bg-white">
   <div class="container-fluid pr-0 pl-0">
     <div class="row-no-padding">
-      <!-- Portfolio #1 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths portfolio-item filter-clients">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/1.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/1.jpg" title="Dish Image"></a>
+      @foreach($gallery as $image)
+        <div class="col-xs-6 col-sm-4 col-md-5ths portfolio-item filter-clients">
+          <div class="portfolio--img">
+            <img src="img/gallery/mini-{{ $image->image }}" alt="Dish Image">
+            <div class="portfolio--hover">
+              <div class="portfolio--action">
+                <div class="pos-vertical-center">
+                  <div class="portfolio--zoom">
+                    <a class="img-gallery-item" href="img/gallery/{{ $image->image }}" title="Dish Image"></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Portfolio #2 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-staff">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/2.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/2.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #3 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/3.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/3.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #4 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/4.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/4.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #5 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/5.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/5.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #6 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/6.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/6.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #7 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/7.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/1.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #8 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-restaurant">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/8.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/8.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #9 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/9.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/9.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio #10 -->
-      <div class="col-xs-6 col-sm-4 col-md-5ths  portfolio-item filter-clients">
-        <div class="portfolio--img">
-          <img src="public/assets/images/gallery/10.jpg" alt="Dish Image">
-          <div class="portfolio--hover">
-            <div class="portfolio--action">
-              <div class="pos-vertical-center">
-                <div class="portfolio--zoom">
-                  <a class="img-gallery-item" href="public/assets/images/gallery/full/10.jpg" title="Dish Image"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      @endforeach
     </div>
   </div>
 </section>
@@ -707,7 +556,7 @@
 ============================================= -->
 <section class="reservation bg-overlay bg-overlay-dark bg-parallax pt-90 pb-80">
   <div class="bg-section">
-    <img src="public/assets/images/bg/20647-12085.jpg" alt="Background" />
+    <img src="assets/images/bg/20647-12085.jpg" alt="Background" />
   </div>
   <div class="container">
     <!-- <div class="divider--shape-1up"></div> -->
@@ -719,10 +568,11 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="contact-form">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
         <div class="reservation-form box-shadow mb-30- bg-white text-center">
-          <form method="post" action="/send-app" class="reservationForm mb-0">
+          <form method="post" action="/send-app" class=" mb-0">
+            {{ csrf_field() }}
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-4">
                 <input type="text" class="form-control" name="res-name" id="name" placeholder="Ваше имя" required>
@@ -730,7 +580,7 @@
               <div class="col-xs-12 col-sm-12 col-md-4">
                 <input type="email" class="form-control" name="res-email" id="email" placeholder="Email">
               </div>
-              <div class="col-md-4">
+              <div class="col-xs-12 col-sm-12 col-md-4">
                 <input type="text" class="form-control" name="contact-phone" id="phone" placeholder="Номер телефона" required>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12">
@@ -752,16 +602,31 @@
   </div>
 </section>
 
+<!-- MESSAGE STATUS -->
+<div class="modal fade" id="message-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center text-uppercase">Статус заявки</h4>
+      </div>
+      <div class="modal-body">
+        <p class="alert {{ session('alert') }}">{{ session('message') }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- CONTACT BUTTONS -->
 <div class="fixed-button">
   <a href="whatsapp://send?phone=+77017892454" target="_top" data-attr="whatsapp_call">
-    <img src="public/assets/images/whatsapp-logo.png">
+    <img src="assets/images/whatsapp-logo.png">
   </a>
 </div>
 <div class="fixed-button2">
   <a href="tel:+77017892454" target="_top" data-attr="phone">
-    <img src="public/assets/images/phone-receiver.png">
+    <img src="assets/images/phone-receiver.png">
   </a>
 </div>
 
@@ -801,7 +666,8 @@
                       <div class="row reservation">
                         <div class="col-xs-12 col-sm-12 col-md-12">
                           <div class="reservation-form mb-30 bg-white text-center">
-                            <form class="mb-0">
+                            <form method="post" action="/send-app" class="mb-0">
+                              {{ csrf_field() }}
                               <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-4">
                                   <input type="text" class="form-control" name="res--name" id="footerName" placeholder="Your Name" required>
@@ -809,7 +675,7 @@
                                 <div class="col-xs-12 col-sm-12 col-md-4">
                                   <input type="email" class="form-control" name="res--email" id="footerEmail" placeholder="Email">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xs-12 col-sm-12 col-md-4">
                                   <input type="text" class="form-control" name="res--name" id="footerPhone" placeholder="Phone Number" required>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
@@ -878,22 +744,32 @@
 
 <!-- Footer Scripts
 ============================================= -->
-<script src="public/assets/js/jquery-2.2.4.min.js"></script>
-<script src="public/assets/js/plugins.js"></script>
-<script src="public/assets/js/functions.js"></script>
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/functions.js"></script>
+
+<!-- Message Status -->
+@if (session('alert'))
+  <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#message-status').modal('show');
+    });
+  </script>
+@endif
+
 <!-- RS5.0 Core JS Files -->
-<!-- <script src="public/assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-<script src="public/assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="public/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> -->
+<!-- <script src="assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script src="assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script> -->
 <!-- RS Configration JS Files -->
-<script src="public/assets/js/rsconfig.js"></script>
+<script src="assets/js/rsconfig.js"></script>
 </body>
 
 </html>

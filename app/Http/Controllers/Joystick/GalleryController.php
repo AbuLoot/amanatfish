@@ -36,19 +36,17 @@ class GalleryController extends Controller
 
             $imageName = time().'.'.$request->file('image')->getClientOriginalExtension();
 
-	        // Creating mini image
-	        $this->resizeMiniImage($request->file('image'), 380, 280, '/images/gallery/mini-'.$imageName, 100);
+	        $this->cropImage($request->file('image'), 300, 300, '/img/gallery/mini-'.$imageName, 100);
 
-	        // Creating image
-	        $this->resizeImage($request->file('image'), 1280, 768, '/images/gallery/'.$imageName, 100, null, '#000000');
+	        $this->resizeImage($request->file('image'), 1280, 768, '/img/gallery/'.$imageName, 100, null, '#000000');
         }
 
         $gallery = new Gallery;
         $gallery->sort_id = ($request->sort_id > 0) ? $request->sort_id : $gallery->count() + 1;
-        $gallery->slug = str_slug($request->title);
-        $gallery->title = $request->title;
+        $gallery->title = (isset($request->title)) ? $request->title : $request->file('image')->getClientOriginalName();
+        $gallery->slug = str_slug($gallery->title);
         $gallery->image = $imageName;
-        $gallery->path = '/images/gallery';
+        $gallery->path = '/img/gallery';
         $gallery->lang = 'ru';
         $gallery->status = ($request->status == 'on') ? 1 : 0;
         $gallery->save();
@@ -74,21 +72,19 @@ class GalleryController extends Controller
 
             $imageName = time().'.'.$request->file('image')->getClientOriginalExtension();
 
-            // Creating mini image
-            $this->resizeMiniImage($request->file('image'), 380, 280, '/images/gallery/mini-'.$imageName, 100);
+            $this->cropImage($request->file('image'), 380, 280, '/img/gallery/mini-'.$imageName, 100);
 
-            // Creating image
-            $this->resizeImage($request->file('image'), 1280, 768, '/images/gallery/'.$imageName, 100, null, '#000000');
+            $this->resizeImage($request->file('image'), 1280, 768, '/img/gallery/'.$imageName, 100, null, '#000000');
 
             Storage::delete([
-                '/images/gallery/mini-'.$gallery->image,
-                '/images/gallery/'.$gallery->image,
+                '/img/gallery/mini-'.$gallery->image,
+                '/img/gallery/'.$gallery->image,
             ]);
         }
 
         $gallery->sort_id = ($request->sort_id > 0) ? $request->sort_id : $gallery->count() + 1;
-        $gallery->slug = str_slug($request->title);
-        $gallery->title = $request->title;
+        $gallery->title = (isset($request->title)) ? $request->title : $request->file('image')->getClientOriginalName();
+        $gallery->slug = str_slug($gallery->title);
         if (isset($imageName)) $gallery->image = $imageName;
         $gallery->status = ($request->status == 'on') ? 1 : 0;
         $gallery->save();
@@ -103,8 +99,8 @@ class GalleryController extends Controller
         if (!empty($gallery->image)) {
 
             Storage::delete([
-                '/images/gallery/mini-'.$gallery->image,
-                '/images/gallery/'.$gallery->image,
+                '/img/gallery/mini-'.$gallery->image,
+                '/img/gallery/'.$gallery->image,
             ]);
         }
 

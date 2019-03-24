@@ -24,7 +24,7 @@
       <label for="image">Картинка</label><br>
       <div class="fileinput fileinput-new" data-provides="fileinput">
         <div class="fileinput-new thumbnail" style="width:300px;height:200px;">
-          <img src="/images/gallery/{{ $gallery->image }}">
+          <img src="/img/gallery/{{ $gallery->image }}">
         </div>
         <div class="fileinput-preview fileinput-exists thumbnail" style="width:300px;height:200px;" data-trigger="fileinput"></div>
         <div>

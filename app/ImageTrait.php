@@ -64,6 +64,17 @@ trait ImageTrait {
     {
         $newImage = Image::make($image);
 
+        if ($newImage->width() > $newImage->height()) {
+            $newImage->resize(null, $height, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+        }
+        else {
+            $newImage->resize($width, null, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+        }
+
         if ($newImage->width() > $width OR $newImage->height() > $height) {
             $newImage->crop($width, $height);
         }

@@ -67,27 +67,29 @@ class InputController extends Controller
 
         $app = new App;
         $app->name = $request->name;
-        // $app->email = $request->email;
+        $app->email = $request->email;
         $app->phone = $request->phone;
-        // $app->message = $request->message;
+        $app->message = $request->message;
         $app->save();
 
         // Email subject
-        $subject = "Elite Room - Новая заявка от $request->name";
+        $subject = "Amanat Fish - Новая заявка от $request->name";
 
         // Email content
-        $content = "<h2>Elite Room</h2>";
+        $content = "<h2>Amanat Fish</h2>";
         $content .= "<b>Имя: $request->name</b><br>";
+        $content .= "<b>Email: $request->email</b><br>";
         $content .= "<b>Номер: $request->phone</b><br>";
+        $content .= "<b>Текст: $request->message</b><br>";
         $content .= "<b>Дата: " . date('Y-m-d') . "</b><br>";
         $content .= "<b>Время: " . date('G:i') . "</b>";
 
-        $headers = "From: info@gomarket.kz \r\n" .
+        $headers = "From: info@amanatfish.kz \r\n" .
                    "MIME-Version: 1.0" . "\r\n" . 
                    "Content-type: text/html; charset=UTF-8" . "\r\n";
 
         // Send the email
-        if (mail('issayev.adilet@gmail.com, eliteroom.company@gmail.com', $subject, $content, $headers)) {
+        if (mail('issayev.adilet@gmail.com', $subject, $content, $headers)) {
             $status = 'alert-success';
             $message = 'Ваша заявка принято.';
         }
