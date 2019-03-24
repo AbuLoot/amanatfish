@@ -287,7 +287,7 @@
                           <?php $images = unserialize($product->images); ?>
                           <img src="/img/products/{{ $product->path.'/'.$images[0]['image'] }}" alt="dish img">
                           <div class="img-popup-overlay">
-                            <div class="popup--price">{{ $product->price }}</div>
+                            <div class="popup--price">{{ $product->price }}₸</div>
                             <h3 class="popup--title">{{ $product->title }}</h3>
                           </div>
                         </div>
