@@ -90,8 +90,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo" href="index.html">
-            <img class="logo-light" src="assets/images/logo/logo-light.png" alt="granny Logo">
+          <a class="logo" href="/">
             <img class="logo-dark" style="max-height: 35px" src="assets/images/logo.png" alt="granny Logo">
           </a>
         </div>
@@ -105,7 +104,7 @@
           </div>
           <div class="module">
             <div class="module-icon">
-              <a href="tel:+77017892454  " target="_top" data-attr="phone">
+              <a href="tel:+77017892454" target="_top" data-attr="phone">
                 <i class="fa fa-phone"></i>
               </a>
             </div>
