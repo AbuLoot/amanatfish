@@ -2,7 +2,7 @@
 /node_modules
 /public/hot
 /public/storage
-/public/images/gallery
+/public/img/gallery
 /storage/*.key
 /.idea
 /.vscode
