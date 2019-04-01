@@ -140,9 +140,9 @@
 <div id="carousel-generic" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="assets/images/bg/fish-2201050_1920.jpg" alt="..." style="width:100%; background-size: cover;">
+      <img src="assets/images/bg/fish2.jpeg" alt="..." style="width:100%; background-size: cover;">
       <div class="carousel-caption">
-        <h2 class="text-white">Рыбы Форели от хозяйства AMANAT FISH</h2>
+        <h2 class="text-white">Рыбы Форели<br> от хозяйства AMANAT&nbsp;FISH</h2>
       </div>
     </div>
   </div>
