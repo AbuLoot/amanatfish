@@ -133,7 +133,7 @@ class ProductController extends Controller
 
                     // Creating preview image
                     if ($key == 0) {
-                        $this->resizeImage($image, 370, 250, '/img/products/'.$dirName.'/preview-'.$imageName, 100);
+                        $this->resizeImage($image, 360, 250, '/img/products/'.$dirName.'/preview-'.$imageName, 100);
                         $introImage = 'preview-'.$imageName;
                     }
 
@@ -145,7 +145,7 @@ class ProductController extends Controller
                     $this->resizeImage($image, 1024, 768, '/img/products/'.$dirName.'/'.$imageName, 90, null, $color);
 
                     // Creating present images
-                    $this->resizeImage($image, 370, 250, '/img/products/'.$dirName.'/present-'.$imageName, 100);
+                    $this->resizeImage($image, 360, 250, '/img/products/'.$dirName.'/present-'.$imageName, 100);
 
                     $images[$key]['image'] = $imageName;
                     $images[$key]['present_image'] = 'present-'.$imageName;
@@ -232,7 +232,7 @@ class ProductController extends Controller
                             Storage::delete('img/products/'.$product->path.'/'.$product->image);
                         }
 
-                        $this->resizeImage($image, 200, 200, '/img/products/'.$product->path.'/preview-'.$imageName, 100);
+                        $this->resizeImage($image, 360, 250, '/img/products/'.$product->path.'/preview-'.$imageName, 100);
                         $introImage = 'preview-'.$imageName;
                     }
 
@@ -243,7 +243,7 @@ class ProductController extends Controller
                     $this->resizeImage($image, 1024, 768, '/img/products/'.$product->path.'/'.$imageName, 90, null, $color);
 
                     // Creating present images
-                    $this->resizeImage($image, 250, 250, '/img/products/'.$product->path.'/present-'.$imageName, 100);
+                    $this->resizeImage($image, 360, 250, '/img/products/'.$product->path.'/present-'.$imageName, 100);
 
                     if (isset($images[$key])) {
 

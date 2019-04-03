@@ -265,7 +265,7 @@
             <div class="banner-panel">
               <div class="banner--img">
                 <a class="dish-popup link-popup" data-toggle="modal" data-target="#dishPopup{{ $product->id }}">
-                  <i class="fa fa-search-plus"></i>
+                  <!-- <i class="fa fa-search-plus"></i> -->
                   <img src="/img/products/{{ $product->path.'/'.$product->image }}" alt="{{ $product->title }}" class="img-responsive">
                 </a>
               </div>
