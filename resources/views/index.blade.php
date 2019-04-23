@@ -140,9 +140,10 @@
 <div id="carousel-generic" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="assets/images/bg/fish2.jpeg" alt="..." style="width:100%; background-size: cover;">
+      <div style="position: absolute; width: 100%; height: 630px; background-color: rgba(0,0,0,0.2);"></div>
+      <img src="assets/images/bg/foreli2.jpg" alt="..." style="width:100%; background-size: cover;">
       <div class="carousel-caption">
-        <h2 class="text-white">Рыбы Форели<br> от хозяйства AMANAT&nbsp;FISH</h2>
+        <h2 class="text-white">Радужные Форели<br> от хозяйства AMANAT&nbsp;FISH</h2>
       </div>
     </div>
   </div>
@@ -163,23 +164,24 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <div class="heading heading-1 text--center">
+        <!-- <div class="heading heading-1 text--center">
           <h2 class="heading--title">О компании</h2>
           <div class="divider--shape-4"></div>
           <p class="heading--desc">TOO AMANAT FISH отечественная компания является одним из крупнейших предприятий которая на протяжении трех лет выращивает форель используя самые передовые технологии.</p><br>
           <p class="heading--desc">Нашими партнерами являются рыболовные компании имеющие высокую репутацию, ведущие свой промысел в Охотском, Японском, Беринговом, Чукотском, Восточно-Сибирских морях. Представляемый ими продукт имеет высшее качество, соответствующее всем международным санитарным, экологическим требованиям.</p>
+        </div> -->
+        <div class="heading heading-1 text--center">
+          <h2 class="heading--title">О хозяйстве</h2>
+          <div class="divider--shape-4"></div>
+          <p class="heading--desc">Наша компания ТОО “Amanat Fish” имеет форелевое хозяйство, занимается импортом, экспортом, разведением и переработкой рыбной продукции.</p><br>
+          <p class="heading--desc">Бассейны в которых растет форель наполняется из скважин с чистейшей артезианской водой, которая добывается на глубине 130 метров и откормленная кормами высшего сорта. У нас имеется 6 больших , 3 средних и 18 маленьких бассейнов. Мы тщательно следим за состоянием наших мальков, рыб и бассейнов.</p>
         </div>
         <div class="mt-40">
         </div>
       </div>
-      <div class="col-xs-6 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-12 col-md-6">
         <div class="banner-img">
-          <img src="assets/images/bg/forel-5-1.jpg" alt="image">
-        </div>
-      </div>
-      <div class="col-xs-6 col-sm-6 col-md-3">
-        <div class="banner-img">
-          <img src="assets/images/bg/forel-5-2.jpg" alt="image">
+          <img src="assets/images/bg/keta-amurskaia.jpg" alt="image">
         </div>
       </div>
     </div>
@@ -218,27 +220,28 @@
 ============================================= -->
 <section id="specials" class="specials specials-1 bg-overlay bg-overlay-dark4- bg-parallax text--center">
   <div class="bg-section">
-    <img src="assets/images/bg/slide_foreli-3-3.jpg" alt="Background" />
+    <img src="assets/images/bg/malki2.jpg" alt="Background" />
   </div>
   <div class="container">
     <div class="divider--shape-1up"></div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-        <h2 class="heading--title color-white text-uppercase">Хозяйство</h2>
+        <h2 class="heading--title color-white text-uppercase">О компании</h2>
       </div>
-    </div>
+    </div> -->
     <div class="row ">
       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
         <div class="dishes-wrapper heading">
-
-          <div class="heading heading-1 mb-50- text--center">
-            <!-- <p class="heading--subtitle">Продукция</p> -->
-            <!-- <h2 class="heading--title color-white-">Хозяйство</h2> -->
-          </div>
+        <h2 class="heading--title color-white- text-uppercase">О компании</h2>
+          <div class="divider--shape-4"></div>
+          <p class="heading--desc">TOO AMANAT FISH отечественная компания является одним из крупнейших предприятий которая на протяжении трех лет выращивает форель используя самые передовые технологии.</p><br>
+          <p class="heading--desc">Нашими партнерами являются рыболовные компании имеющие высокую репутацию, ведущие свой промысел в Охотском, Японском, Беринговом, Чукотском, Восточно-Сибирских морях. Представляемый ими продукт имеет высшее качество, соответствующее всем международным санитарным, экологическим требованиям.</p>
+        </div>
+        <!-- <div class="dishes-wrapper heading">
           <div class="divider--shape-4"></div>
           <p class="heading--desc">Наша компания ТОО “Amanat Fish” имеет форелевое хозяйство, занимается импортом, экспортом, разведением и переработкой рыбной продукции.</p><br>
           <p class="heading--desc">Бассейны в которых растет форель наполняется из скважин с чистейшей артезианской водой, которая добывается на глубине 130 метров и откормленная кормами высшего сорта. У нас имеется 6 больших , 3 средних и 18 маленьких бассейнов. Мы тщательно следим за состоянием наших мальков, рыб и бассейнов.</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="divider--shape-1down"></div>
