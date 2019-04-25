@@ -8,8 +8,10 @@
   <!--IE Compatibility Meta-->
   <meta name="author" content="zytheme" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Elegant Restaurant & Cafe Html5 Template">
-  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <meta name="description" content="AmanatFish - Радужные Форели от хозяйства AMANAT FISH в Алматы. Также есть Кета, Нерка, Горбуша, Голец, Минтай, Рыба радужная форель, Kорм для форели.">
+
+  <link rel="icon" type="image/icon" href="/assets/images/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 
   <!-- Fonts
   ============================================= -->
@@ -36,7 +38,7 @@
 
   <!-- Document Title
   ============================================= -->
-  <title>Granny | Elegant Restaurant & Cafe Html5 Template</title>
+  <title>Радужные Форели от хозяйства AMANAT FISH в Алматы</title>
 </head>
 
 <body>
